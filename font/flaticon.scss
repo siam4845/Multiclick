@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?77a8be7f8af454226553ea9935668660") format("truetype"),
+url("./flaticon.woff?77a8be7f8af454226553ea9935668660") format("woff"),
+url("./flaticon.woff2?77a8be7f8af454226553ea9935668660") format("woff2"),
+url("./flaticon.eot?77a8be7f8af454226553ea9935668660#iefix") format("embedded-opentype"),
+url("./flaticon.svg?77a8be7f8af454226553ea9935668660#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "data": "\f101",
+    "computer": "\f102",
+    "open-box": "\f103",
+    "rocket-ship": "\f104",
+    "promotion": "\f105",
+    "mail": "\f106",
+);
+
+.flaticon-data:before {
+    content: map-get($flaticon-map, "data");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-open-box:before {
+    content: map-get($flaticon-map, "open-box");
+}
+.flaticon-rocket-ship:before {
+    content: map-get($flaticon-map, "rocket-ship");
+}
+.flaticon-promotion:before {
+    content: map-get($flaticon-map, "promotion");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
