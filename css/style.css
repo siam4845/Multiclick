@@ -248,9 +248,13 @@ p{
 }
 .portfolio-btn{
     padding-top: 70px;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 /* ==================Team Part Start Here=============== */
+#team{
+    background-color: #e8dcf0;
+    padding: 80px 0;
+}
 /* ==================Video Part Start Here=============== */
 /* ==================Counter Part Start Here=============== */
 /* ==================Testimonial Part Start Here=============== */
