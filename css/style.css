@@ -33,6 +33,32 @@ p{
     line-height: 26px;
 }
 /* ==================Navbar Part Start Here=============== */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 21px;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #c58bea;
+}
+
+
+.quote{
+    margin-left: 25px;
+}
+.quote a{
+    padding: 20px 30px;
+    background-color: #c58bea;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
 /* ==================Bannar Part Start Here=============== */
 #bannar{
     background-image: url(../images/bannar.jpg);
@@ -273,12 +299,12 @@ p{
     left: 0;
     height: 0%;
     width: 100%;
-    transition: all linear 0.3s;
+    transition: all linear 0.5s;
     background-color: rgba(19, 19, 19, 0.63);
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
     opacity: 0;
 }
 .team-img{
@@ -373,19 +399,82 @@ p{
     height: 100%;
     opacity: 1;
 }
+.team-overlay-wrapper{
+    position: relative;
+    top: -320px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+.team-item:hover .team-overlay-wrapper{
+    top: 0;
+}
 /* ==================Video Part Start Here=============== */
 #video{
     padding-top: 120px;
 }
-.video-item{
+.video-main{
     height: 600px;
     width: 100%;
-    background-color: #abaaaa;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    overflow: hidden;
+}
+.video-main video{
+    height: 100%;
+}
+.video-item{
+    position: relative;
+}
+.video-item::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.411);
+}
+.video-main{
+    position: relative;
+}
+.video-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.video-icon button{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 222, 220);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.video-icon button i{
+    font-size: 30px;
+    color: #a43de4;
+}
+.video-icon h4{
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #a34dd8;
 }
 /* ==================Counter Part Start Here=============== */
 #counter{
@@ -416,7 +505,7 @@ p{
     padding-bottom: 60px;
 }
 .testi-item-main{
-    padding: 30px 0;
+    padding: 30px 170px;
     background-color: #c58bea;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -426,7 +515,7 @@ p{
     position: relative;
 }
 .testi-item{
-    margin: 0px 170px;
+    margin: 0px 0px;
     text-align: center;
 }
 .testi-img-main{
