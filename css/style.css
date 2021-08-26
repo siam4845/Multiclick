@@ -47,8 +47,6 @@ p{
 .navbar-expand-lg .navbar-nav .nav-link:hover{
     color: #c58bea;
 }
-
-
 .quote{
     margin-left: 25px;
 }
@@ -59,13 +57,28 @@ p{
     font-weight: 500;
     color: #fff;
 }
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    padding-top: 30px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
 /* ==================Bannar Part Start Here=============== */
 #bannar{
     background-image: url(../images/bannar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 112px;
+    padding-top: 122px;
+}
+.bannar-left{
+    padding-top: 120px;
 }
 .bannar-left h1{
     font-size: 56px;
@@ -257,10 +270,12 @@ p{
     -moz-transition: all linear 0.3s;
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
+    overflow: hidden;
 }
 .port-overlay-icon i{
     color: black;
     font-size: 22px;
+    padding: 20px;
 }
 .portfolio-item:hover .port-item-overlay{
     height: 100%;
@@ -271,6 +286,7 @@ p{
 .port-overlay-icon:hover{
     height: 70px;
     width: 70px;
+    overflow: hidden;
 }
 .portfolio-btn{
     padding-top: 70px;
