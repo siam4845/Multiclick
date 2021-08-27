@@ -24,13 +24,14 @@ function toggle(button) {
     document.getElementById('siam-player').innerHTML = 'Play Video';
   }
 }
-
-
-
 //====================counter part======================
 $(function(){
   $('.counter').counterUp({
     delay: 5,
     time: 3000,
   });
+});
+//=============Portfolio Page Number part start here============
+$(function(){
+
 });

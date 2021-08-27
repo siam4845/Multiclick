@@ -56,6 +56,15 @@ p{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.quote a:hover{
+    -webkit-box-shadow: 2px 2px 23px 4px #c68beabe; 
+    box-shadow: 2px 2px 23px 4px #c68beabc;
 }
 .navbar{
     position: absolute;
@@ -879,4 +888,149 @@ p{
 .footer-copyright h4 a{
     color: #c58bea;
     font-weight: 700;
+}
+/* ======================Aobot Page part start here======================== */
+#breadcrumb{
+    padding-top: 155px;
+    padding-bottom: 80px;
+    background-color: #f9f3fd;
+    text-align: center;
+}
+#breadcrumb .breadcrumb-wrap h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #b76de6;
+    text-transform: capitalize;
+}
+#breadcrumb .breadcrumb-wrap ul.breadcrumb-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+#breadcrumb .breadcrumb-wrap ul.breadcrumb-links li {
+    font-size: 16px;
+    color: #151515;
+    font-weight: 500;
+    padding-top: 20px;
+}
+#breadcrumb .breadcrumb-wrap ul.breadcrumb-links li a{
+    color: #151515;
+}
+#breadcrumb .breadcrumb-wrap ul.breadcrumb-links li i{
+    font-size: 15px;
+}
+#about-page .ab-page-text p{
+    padding-top: 50px;
+    text-align: justify;
+}
+#about-page #about{
+    padding-bottom: 0px;
+}
+/* ======================Service Page part start here======================== */
+#service-page .about-right .sec-heading{
+    padding-right: 0;
+}
+#service-page .about-right .sec-heading h3{
+    font-size: 38px;
+}
+#service-page .ab-page-text p{
+    padding-top: 40px;
+    text-align: justify;
+    padding-bottom: 90px;
+}
+#service-page #about{
+    padding-bottom: 0;
+}
+/* ======================Portfolio Page part start here======================== */
+#portfolio-page{
+
+}
+#page-number{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#page-number .page-num-btn{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #999;
+    margin: 0 6px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #999;
+    transition: all linear 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.page-num-btn.xyz{
+    background-color: #c58bea;
+    color: #fff!important;
+    border: 1px solid #c58bea;
+}
+/* ======================Contact Page part start here======================== */
+#contact-page .about-left{
+    height: 465px;
+}
+#contact-page .about-right .sec-heading{
+    padding-right: 0;
+}
+#contact-page .about-right .sec-heading h3{
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+.contact-form input{
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    height: 35px;
+    padding-left: 15px;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 15px;
+}
+.condition-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.term-condition{
+    display: flex;
+}
+.term-condition input{
+    height: 25px;
+    width: 25px;
+    margin-top: -5px;
+}
+.term-condition h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.term-condition h4 a{
+    color: #c58bea;
+    text-decoration: underline;
+    
 }
