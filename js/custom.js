@@ -31,7 +31,26 @@ $(function(){
     time: 3000,
   });
 });
-//=============Portfolio Page Number part start here============
+//===========Bottom-to-top and fixed nav==============
 $(function(){
+  $('.bottom-to-top').click(function(){
+    $('html, body').animate({scrollTop:0},1000);
+});
+$(window).scroll(function(){
+    var scrolling = $(this).scrollTop();
+    if(scrolling > 300){
+        $('.bottom-to-top').fadeIn(500);
+    }
+    else{
+        $('.bottom-to-top').fadeOut(500);
+    }
 
+
+    if(scrolling > 200){
+        $('.navbar').addClass('nav-bg');
+    }
+    else{
+        $('.navbar').removeClass('nav-bg');
+    }
+});
 });
