@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: unset!important;
 }
 *{
     margin: 0;
@@ -238,6 +238,9 @@ p{
 }
 .bannar-right{
     height: 100%;
+}
+.bannar-right img{
+    object-fit: cover;
 }
 .cmn-btn a:hover{
     -webkit-box-shadow: 2px 2px 23px 4px #c68beabe; 
