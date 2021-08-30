@@ -1,0 +1,328 @@
+/* ==============================Extra Small Device============================== */
+@media(max-width:575.98px){
+/* ==============navbar============= */
+p{
+    font-size: 14px;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.quote{
+    display: none;
+}
+/* ==============Bannar============= */
+#bannar{
+    background-position: unset;
+    background-size: unset;
+    max-width: 576px;
+}
+.bannar-right{
+    display: none;
+}
+.bannar-left h1 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.bannar-left{
+    padding-top: 0;
+}
+.bannar-btn {
+	margin-bottom: 70px;
+}
+.cmn-btn a {
+	padding: 15px 20px;
+}
+.bannar-left p {
+	padding-top: 20px;
+	padding-bottom: 55px;
+}
+/* ==============About============= */
+#about{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.about-right .sec-heading {
+	padding-right: 80px;
+    padding-top: 25px;
+}
+.sec-heading h3 {
+	font-size: 22px;
+	line-height: 30px;
+    padding-top: 10px;
+}
+.about-right p {
+	padding-top: 10px;
+}
+.cmn-btn.about-btn {
+	margin-top: 30px;
+}
+/* ==============Service============= */
+#service {
+	padding: 25px 0;
+}
+.service-item {
+	margin-top: 20px;
+}
+.service-item-top{
+    display: flex;
+   justify-content: center;
+}
+.service-icon {
+	height: 70px;
+	width: 70px;
+}
+.service-item-con h3 {
+	font-size: 16px;
+    text-align: center;
+	line-height: 26px;
+	padding-top: 10px;
+}
+.service-item-con p {
+	font-size: 14px;
+	padding-top: 10px;
+	text-align: center;
+}
+/* ==============Portfolio============= */
+#portfolio {
+	padding-top: 30px;
+}
+#portfolio .sec-heading {
+	padding-bottom: 0px;
+}
+.portfolio-item {
+	margin-top: 10px;
+}
+.portfolio-btn {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+/* ==============Team============= */
+#team {
+	padding: 30px 0;
+}
+.team-item {
+	margin-top: 20px;
+}
+/* ==============Video============= */
+#video {
+	padding-top: 35px;
+}
+.video-main {
+	height: 230px;
+}
+.video-item {
+	height: 100%;
+}
+.video-icon button {
+	height: 50px;
+	width: 50px;
+	background-color: rgba(226, 222, 220, 0.59);
+}
+.video-icon button i {
+	font-size: 23px;
+}
+.video-icon h4 {
+	padding-top: 15px;
+	font-size: 18px;
+}
+/* ==============Counter============= */
+#counter {
+	margin-top: -80px;
+	padding-top: 120px;
+	padding-bottom: 25px;
+}
+.counter-item{
+    padding: 15px 0;
+}
+.counter-item h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.counter-item h4 {
+	padding-top: 15px;
+	font-size: 16px;
+	line-height: 26px;
+}
+/* ==============Testimonial============= */
+#testimonial {
+	padding-top: 30px;
+}
+#testimonial .sec-heading {
+	padding-bottom: 20px;
+}
+.testi-item-main {
+	padding: 30px 15px;
+}
+.testi-prev {
+    display: none;
+}.testi-next {
+    display: none;
+}
+/* ==============Package============= */
+#package {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.package-item {
+	margin-top: 20px;
+	padding: 25px 30px;
+}
+.pack-name h3 {
+	padding: 8px 0;
+	font-size: 20px;
+}
+.pack-rate h3 {
+	font-size: 25px;
+	padding: 20px 0;
+}
+.package-item ul li {
+	padding-top: 10px;
+	font-size: 15px;
+}
+.pack-btn {
+	margin-top: 40px;
+	margin-bottom: 18px;
+}
+/* ==============Subscribe============= */
+#subscribe {
+	margin-bottom: 30px;
+}
+.subscribe-con{
+    width: 100%;
+}
+.subscribe-main {
+	display: inline-block;
+	padding: 10px;
+}
+.subscribe-con h3 {
+	font-size: 20px;
+	padding-top: 20px;
+	line-height: 25px;
+}
+.subscribe-btn {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+/* ==============Footer============= */
+#footer {
+	padding-top: 30px;
+}
+.footer-social {
+	padding-bottom: 25px;
+}
+.footer-logo img{
+	width: 150px;
+}
+.footer-nav ul li {
+	padding: 5px 40px;
+	display: block;
+}
+.footer-nav{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.footer-nav ul li a {
+	font-size: 18px;
+}
+.footer-social-item {
+	height: 35px;
+	width: 35px;
+	margin: 0px 6px;
+}
+.footer-social-item a i {
+	font-size: 20px;
+}
+.footer-copyright {
+	padding: 20px 20px;
+}
+.footer-copyright h4 {
+	line-height: 25px;
+}
+.bottom-to-top {
+	bottom: 10px;
+	right: 10px;
+	height: 30px;
+	width: 30px;
+
+}
+
+
+
+}
+/* ============================== Small Device============================== */
+@media(min-width:576px) and (max-width:767.98px){
+/* ==============navbar============= */
+/* ==============Bannar============= */
+/* ==============About============= */
+/* ==============Service============= */
+/* ==============Portfolio============= */
+/* ==============Team============= */
+/* ==============Video============= */
+/* ==============Counter============= */
+/* ==============Testimonial============= */
+/* ==============Package============= */
+/* ==============Subscribe============= */
+/* ==============Footer============= */
+}
+/* ==============================Medium Device============================== */
+@media(min-width:768px) and (max-width:991.98px){
+/* ==============navbar============= */
+/* ==============Bannar============= */
+/* ==============About============= */
+/* ==============Service============= */
+/* ==============Portfolio============= */
+/* ==============Team============= */
+/* ==============Video============= */
+/* ==============Counter============= */
+/* ==============Testimonial============= */
+/* ==============Package============= */
+/* ==============Subscribe============= */
+/* ==============Footer============= */
+}
+/* ==============================Large Device============================== */
+@media(min-width:992px) and (max-width:1199.98px){
+/* ==============navbar============= */
+/* ==============Bannar============= */
+/* ==============About============= */
+/* ==============Service============= */
+/* ==============Portfolio============= */
+/* ==============Team============= */
+/* ==============Video============= */
+/* ==============Counter============= */
+/* ==============Testimonial============= */
+/* ==============Package============= */
+/* ==============Subscribe============= */
+/* ==============Footer============= */
+}
+/* ==============================Extra Large Device============================== */
+@media(min-width:1200px) and (max-width:1399.98px){
+/* ==============navbar============= */
+/* ==============Bannar============= */
+/* ==============About============= */
+/* ==============Service============= */
+/* ==============Portfolio============= */
+/* ==============Team============= */
+/* ==============Video============= */
+/* ==============Counter============= */
+/* ==============Testimonial============= */
+/* ==============Package============= */
+/* ==============Subscribe============= */
+/* ==============Footer============= */
+}
+/* ==============================Extra Extra Large Device============================== */
+@media(min-width:1400px){
+/* ==============navbar============= */
+/* ==============Bannar============= */
+/* ==============About============= */
+/* ==============Service============= */
+/* ==============Portfolio============= */
+/* ==============Team============= */
+/* ==============Video============= */
+/* ==============Counter============= */
+/* ==============Testimonial============= */
+/* ==============Package============= */
+/* ==============Subscribe============= */
+/* ==============Footer============= */
+}

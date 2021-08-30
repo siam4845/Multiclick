@@ -201,6 +201,8 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 122px;
+    object-fit: cover;
+    width: 100%;
 }
 .bannar-left{
     padding-top: 120px;

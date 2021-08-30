@@ -7,6 +7,29 @@ $('.testi-item-wrapper').slick({
     prevArrow:'.testi-prev',
     nextArrow:'.testi-next',
     speed:2000,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          arrows:false,
+          autoplay:true,
+          speed: 1000,
+        }
+      },
+      {
+          breakpoint: 768,
+          settings: {
+            
+          }
+      },
+       {
+           breakpoint: 992,
+           settings: {
+             
+           }
+         },
+  
+    ]
   });
 
   //============video part start============
